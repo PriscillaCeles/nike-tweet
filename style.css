@@ -1,0 +1,91 @@
+:root {
+    --text:#0F1419;
+    --icon-text:#536471;
+    --border:#dadddf;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-tweet {
+    width: 591px;
+    height: 161px;
+    display: flex;
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    padding: 17px 84px 19px 17px;
+}
+
+.profile-image {
+    margin-right: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 178px;
+}
+
+.profile {
+    font-weight: 700;
+    color:  var(--text);
+}
+
+.text, .main-tweet {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.icon-verify {
+    width: 15px;
+    height: 15px;
+}
+
+.text-coment {
+    color:  var(--icon-text);
+    font-weight: 400;
+}
+
+.dot {
+    color: var(--icon-text);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.main-tweet {
+    margin-bottom: 16px;
+}
+
+.text-tweet {
+    color:  var(--text);
+    font-weight: 400;
+}
+
+.add-text {
+    margin-top: 21px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--icon-text);
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 17px;
+}
